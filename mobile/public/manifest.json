@@ -1,0 +1,50 @@
+{
+  "name": "Ratio - Mobile Learning Experience",
+  "short_name": "Ratio",
+  "description": "Ancient study chamber for knowledge, memory, and reasoning",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0A0A",
+  "theme_color": "#C8B68D",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Oikos",
+      "short_name": "Oikos",
+      "description": "Daily study chamber",
+      "url": "/oikos",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Memoria",
+      "short_name": "Memoria",
+      "description": "Memory practice",
+      "url": "/memoria",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Bibliotheca",
+      "short_name": "Bibliotheca",
+      "description": "Library",
+      "url": "/bibliotheca",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "prefer_related_applications": false
+}
