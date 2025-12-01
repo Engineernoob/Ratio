@@ -1,0 +1,18 @@
+{
+  "id": "thinking-in-systems",
+  "title": "Thinking in Systems",
+  "author": "Donella H. Meadows",
+  "category": "Systems Thinking",
+  "tags": ["systems-thinking", "complexity", "problem-solving", "modern"],
+  "spine": "",
+  "spineWidth": "normal",
+  "cover": "",
+  "pdf": "/pdfs/ThinkinginSystems.pdf",
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Introduction",
+      "file": "chapter-1.json"
+    }
+  ]
+}

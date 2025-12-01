@@ -1,0 +1,36 @@
+[
+  {
+    "id": "logic-1",
+    "type": "mcq",
+    "prompt": "If all X are Y, and some Y are Z, which statement must be true?",
+    "choices": [
+      "All X are Z",
+      "Some X are Z",
+      "No X are Z",
+      "Cannot be determined"
+    ],
+    "answer": 3,
+    "explanation": "From 'all X are Y' and 'some Y are Z', we cannot determine the relationship between X and Z. The X that are Y might or might not be among the Y that are Z."
+  },
+  {
+    "id": "logic-2",
+    "type": "mcq",
+    "prompt": "No birds are mammals. All eagles are birds. Therefore:",
+    "choices": [
+      "No eagles are mammals",
+      "Some eagles are mammals",
+      "All mammals are eagles",
+      "None of the above"
+    ],
+    "answer": 0,
+    "explanation": "Valid categorical syllogism. If no birds are mammals, and all eagles are birds, then no eagles can be mammals."
+  },
+  {
+    "id": "logic-3",
+    "type": "pattern",
+    "prompt": "Complete the sequence: All A are B. Some B are C. Therefore, some A are C. Is this valid?",
+    "answer": "No",
+    "explanation": "This is invalid. From 'all A are B' and 'some B are C', we cannot conclude that some A are C. The A might not be among the B that are C."
+  }
+]
+

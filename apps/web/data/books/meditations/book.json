@@ -1,0 +1,37 @@
+{
+  "id": "meditations",
+  "title": "Meditations",
+  "author": "Marcus Aurelius",
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Book I — Debts and Lessons",
+      "file": "chapter-1.json"
+    },
+    {
+      "id": "chapter-2",
+      "title": "Book II — On Meeting the Day",
+      "file": "chapter-2.json"
+    },
+    {
+      "id": "chapter-3",
+      "title": "Book III — Perspective From Above",
+      "file": "chapter-3.json"
+    },
+    { "id": "chapter-4", "title": "Book IV", "file": "chapter-4.json" },
+    { "id": "chapter-5", "title": "Book V", "file": "chapter-5.json" },
+    { "id": "chapter-6", "title": "Book VI", "file": "chapter-6.json" },
+    { "id": "chapter-7", "title": "Book VII", "file": "chapter-7.json" },
+    { "id": "chapter-8", "title": "Book VIII", "file": "chapter-8.json" },
+    { "id": "chapter-9", "title": "Book IX", "file": "chapter-9.json" },
+    { "id": "chapter-10", "title": "Book X", "file": "chapter-10.json" },
+    { "id": "chapter-11", "title": "Book XI", "file": "chapter-11.json" },
+    { "id": "chapter-12", "title": "Book XII", "file": "chapter-12.json" }
+  ],
+  "bookSpine": {
+    "x": 412,
+    "y": 118,
+    "width": 32,
+    "height": 240
+  }
+}

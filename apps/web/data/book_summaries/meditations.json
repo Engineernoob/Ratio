@@ -1,0 +1,30 @@
+{
+  "title": "Meditations",
+  "author": "Marcus Aurelius",
+  "year": 180,
+  "key_ideas": [
+    "Focus only on what you can control. External events are indifferent.",
+    "Accept what happens without complaint. Nature's will is rational.",
+    "Practice self-examination daily. Reflect on your actions and thoughts.",
+    "Death is natural and inevitable. Live virtuously while you can.",
+    "Other people's opinions don't define you. Your character is your own.",
+    "Turn obstacles into opportunities. Every challenge is a chance to practice virtue."
+  ],
+  "micro_lessons": [
+    {
+      "id": "med-1",
+      "title": "The Dichotomy of Control",
+      "core_idea": "Some things are within our control, others are not. Focus only on the former.",
+      "micro_test_q": "What is the fundamental distinction in Stoic philosophy?",
+      "micro_test_a": "The distinction between what we can control (our judgments, desires, actions) and what we cannot (external events, others' opinions)."
+    },
+    {
+      "id": "med-2",
+      "title": "Acceptance of Nature",
+      "core_idea": "Accept what happens as part of nature's rational order. Resistance causes suffering.",
+      "micro_test_q": "How should one respond to unfavorable events?",
+      "micro_test_a": "Accept them as part of nature's will, without complaint or resistance, recognizing they are outside our control."
+    }
+  ]
+}
+

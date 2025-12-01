@@ -1,0 +1,19 @@
+{
+  "id": "the-art-of-strategy",
+  "title": "The Art of Strategy",
+  "author": "Avinash K. Dixit & Barry J. Nalebuff",
+  "pdf": "/pdfs/The Art of Strategy.pdf",
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Introduction",
+      "file": "chapter-1.json"
+    }
+  ],
+  "bookSpine": {
+    "x": 0,
+    "y": 0,
+    "width": 55,
+    "height": 240
+  }
+}

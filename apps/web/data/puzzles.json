@@ -1,0 +1,71 @@
+{
+  "puzzles": [
+    {
+      "id": "syllogism-1",
+      "type": "mcq",
+      "prompt": "All philosophers are seekers of truth. Socrates is a philosopher. Therefore:",
+      "choices": [
+        "Socrates seeks truth",
+        "Socrates is not a seeker of truth",
+        "All seekers of truth are philosophers",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "This is a valid categorical syllogism. The major premise states all philosophers are truth-seekers. The minor premise identifies Socrates as a philosopher. The conclusion follows necessarily: Socrates seeks truth."
+    },
+    {
+      "id": "fallacy-1",
+      "type": "mcq",
+      "prompt": "Which logical fallacy is present: 'You must agree with me because everyone else does'?",
+      "choices": [
+        "Ad hominem",
+        "Appeal to popularity",
+        "False dilemma",
+        "Straw man"
+      ],
+      "answer": 1,
+      "explanation": "This is an appeal to popularity (argumentum ad populum), which assumes something is true because many people believe it."
+    },
+    {
+      "id": "pattern-1",
+      "type": "pattern",
+      "prompt": "Complete the sequence: 2, 6, 12, 20, 30, ?",
+      "answer": "42",
+      "explanation": "The pattern is n(n+1): 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, so 6×7=42."
+    },
+    {
+      "id": "ratio-1",
+      "type": "ratio",
+      "prompt": "If the ratio of A to B is 3:4, and B is 16, what is A?",
+      "answer": "12",
+      "explanation": "If A:B = 3:4, then A = (3/4) × B. Given B = 16, A = (3/4) × 16 = 12."
+    },
+    {
+      "id": "logic-1",
+      "type": "mcq",
+      "prompt": "If all X are Y, and some Y are Z, which statement must be true?",
+      "choices": [
+        "All X are Z",
+        "Some X are Z",
+        "No X are Z",
+        "Cannot be determined"
+      ],
+      "answer": 3,
+      "explanation": "From 'all X are Y' and 'some Y are Z', we cannot determine the relationship between X and Z. The X that are Y might or might not be among the Y that are Z."
+    },
+    {
+      "id": "syllogism-2",
+      "type": "mcq",
+      "prompt": "No birds are mammals. All eagles are birds. Therefore:",
+      "choices": [
+        "No eagles are mammals",
+        "Some eagles are mammals",
+        "All mammals are eagles",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Valid categorical syllogism. If no birds are mammals, and all eagles are birds, then no eagles can be mammals."
+    }
+  ]
+}
+

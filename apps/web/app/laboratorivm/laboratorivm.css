@@ -1,0 +1,301 @@
+.lab-body {
+  background: radial-gradient(circle at 18% 18%, rgba(255, 255, 255, 0.04), transparent 36%),
+    #0f0f0f;
+  color: #f6f6f6;
+}
+
+.lab-content {
+  background: radial-gradient(circle at 28% 12%, rgba(255, 255, 255, 0.05), transparent 32%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent 60%),
+    #121212;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.lab-hero {
+  position: relative;
+  width: 100%;
+  min-height: 70vh;
+  overflow: hidden;
+  background: #070707;
+  color: #f9f9f9;
+}
+
+.lab-hero__image {
+  position: absolute;
+  inset: 0;
+}
+
+.lab-hero__img {
+  object-fit: cover;
+  filter: grayscale(1) contrast(1.05);
+  opacity: 0.5;
+}
+
+.lab-hero__grain {
+  position: absolute;
+  inset: 0;
+  background-image: url("/images/textures/texture_bayer.png");
+  background-size: 180px 180px;
+  opacity: 0.12;
+  mix-blend-mode: screen;
+  animation: labGrain 18s steps(12) infinite;
+}
+
+.lab-hero__vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 50% 40%, transparent 45%, rgba(0, 0, 0, 0.75) 100%);
+}
+
+.lab-hero__content {
+  position: relative;
+  z-index: 2;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  text-shadow: 0 12px 32px rgba(0, 0, 0, 0.55);
+}
+
+.lab-hero__stack {
+  display: grid;
+  gap: 0.75rem;
+  max-width: 44rem;
+}
+
+.lab-hero__overline {
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #e7e7e7;
+}
+
+.lab-hero__title {
+  font-family: "EB Garamond", "Cormorant Garamond", serif;
+  font-size: clamp(2.8rem, 6vw, 4.2rem);
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.lab-hero__subtitle {
+  color: #efefef;
+  font-size: clamp(1rem, 2.4vw, 1.2rem);
+  line-height: 1.7;
+  max-width: 46ch;
+  margin: 0 auto;
+}
+
+.lab-quickgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.lab-quickcard {
+  padding: 1rem 1.1rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.05), rgba(15, 15, 15, 0.85));
+  box-shadow: 0 18px 32px rgba(0, 0, 0, 0.32);
+}
+
+.lab-quickcard__label {
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #dcdcdc;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.lab-quickcard__value {
+  display: block;
+  font-family: "EB Garamond", "Cormorant Garamond", serif;
+  font-size: 1.6rem;
+  color: #ffffff;
+  margin-bottom: 0.2rem;
+}
+
+.lab-quickcard__hint {
+  font-size: 0.9rem;
+  color: #e4e4e4;
+  opacity: 0.85;
+}
+
+.continuum {
+  position: relative;
+  padding: 1.2rem 1rem;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent 60%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.continuum__rail {
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  top: 50%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.12);
+  transform: translateY(-50%);
+}
+
+.continuum__pills {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.75rem;
+  z-index: 1;
+}
+
+.continuum__pill {
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  padding: 0.65rem 0.95rem;
+  background: rgba(255, 255, 255, 0.04);
+  color: #e8e8e8;
+  letter-spacing: 0.08em;
+  font-size: 0.9rem;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+.continuum__pill:hover {
+  border-color: rgba(255, 255, 255, 0.28);
+  color: #ffffff;
+}
+
+.continuum__pill.is-active {
+  border-color: rgba(255, 255, 255, 0.35);
+  color: #ffffff;
+}
+
+.continuum__glow {
+  position: absolute;
+  inset: 0;
+  border-radius: 999px;
+  background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0));
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+
+.lab-streams {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent 60%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 1.5rem;
+  box-shadow: 0 18px 32px rgba(0, 0, 0, 0.32);
+}
+
+.lab-streams__head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.lab-streams__hint {
+  color: #dcdcdc;
+  letter-spacing: 0.04em;
+}
+
+.lab-streams__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.lab-streams__card {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1rem;
+  background: linear-gradient(140deg, rgba(255, 255, 255, 0.04), rgba(12, 12, 12, 0.85));
+}
+
+.lab-streams__meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.lab-streams__pill {
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  padding: 0.25rem 0.7rem;
+  letter-spacing: 0.1em;
+  font-size: 0.8rem;
+  color: #f0f0f0;
+}
+
+.lab-streams__mini {
+  color: #d4d4d4;
+  letter-spacing: 0.04em;
+  font-size: 0.85rem;
+}
+
+.lab-moduli {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent 60%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 1.5rem;
+  box-shadow: 0 18px 32px rgba(0, 0, 0, 0.32);
+}
+
+.lab-moduli__head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.lab-moduli__hint {
+  color: #dcdcdc;
+  letter-spacing: 0.04em;
+}
+
+.lab-moduli__layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.lab-moduli__list {
+  max-height: 480px;
+  overflow-y: auto;
+  padding-right: 0.35rem;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.lab-moduli__sidebar {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 0.9rem;
+  background: linear-gradient(150deg, rgba(255, 255, 255, 0.03), rgba(12, 12, 12, 0.85));
+}
+
+@media (min-width: 1024px) {
+  .lab-moduli__layout {
+    grid-template-columns: 2fr 1fr;
+    align-items: start;
+  }
+}
+
+@keyframes labGrain {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(-8px, 6px, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}

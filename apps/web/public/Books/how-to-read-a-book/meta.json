@@ -1,0 +1,18 @@
+{
+  "id": "how-to-read-a-book",
+  "title": "How to Read a Book",
+  "author": "Mortimer J. Adler & Charles Van Doren",
+  "category": "Education",
+  "tags": ["education", "reading", "learning", "study-skills"],
+  "spine": "",
+  "spineWidth": "normal",
+  "cover": "",
+  "pdf": "/pdfs/How to Read a Book_ The classic guide to intelligent reading .pdf",
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Introduction",
+      "file": "chapter-1.json"
+    }
+  ]
+}

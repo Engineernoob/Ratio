@@ -1,0 +1,190 @@
+.biblio-body {
+  background: radial-gradient(circle at 25% 20%, rgba(255, 255, 255, 0.03), transparent 40%),
+    #0f0f0f;
+  color: #f6f6f6;
+}
+
+.biblio-content {
+  background: radial-gradient(circle at 20% 15%, rgba(255, 255, 255, 0.04), transparent 30%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent 50%),
+    #121212;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.biblio-hero {
+  position: relative;
+  width: 100%;
+  min-height: 70vh;
+  overflow: hidden;
+  background: #070707;
+  color: #f9f9f9;
+}
+
+.biblio-hero__image {
+  position: absolute;
+  inset: 0;
+}
+
+.biblio-hero__img {
+  object-fit: cover;
+  filter: grayscale(1) contrast(1.1);
+  opacity: 0.5;
+}
+
+.biblio-hero__grain {
+  position: absolute;
+  inset: 0;
+  background-image: url("/images/textures/texture_bayer.png");
+  background-size: 180px 180px;
+  opacity: 0.1;
+  mix-blend-mode: screen;
+  animation: biblioGrain 16s steps(12) infinite;
+}
+
+.biblio-hero__vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 50% 40%, transparent 45%, rgba(0, 0, 0, 0.75) 100%);
+}
+
+.biblio-hero__content {
+  position: relative;
+  z-index: 2;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  text-shadow: 0 12px 32px rgba(0, 0, 0, 0.55);
+}
+
+.biblio-hero__stack {
+  display: grid;
+  gap: 0.75rem;
+  max-width: 44rem;
+}
+
+.biblio-hero__overline {
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #e7e7e7;
+}
+
+.biblio-hero__title {
+  font-family: "EB Garamond", "Cormorant Garamond", serif;
+  font-size: clamp(2.8rem, 6vw, 4.2rem);
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.biblio-hero__subtitle {
+  color: #efefef;
+  font-size: clamp(1rem, 2.4vw, 1.2rem);
+  line-height: 1.7;
+  max-width: 46ch;
+  margin: 0 auto;
+}
+
+.biblio-quickgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.biblio-quickcard {
+  padding: 1rem 1.1rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.05), rgba(15, 15, 15, 0.85));
+  box-shadow: 0 18px 32px rgba(0, 0, 0, 0.32);
+}
+
+.biblio-quickcard__label {
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #dcdcdc;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.biblio-quickcard__value {
+  display: block;
+  font-family: "EB Garamond", "Cormorant Garamond", serif;
+  font-size: 1.6rem;
+  color: #ffffff;
+  margin-bottom: 0.2rem;
+}
+
+.biblio-quickcard__hint {
+  font-size: 0.9rem;
+  color: #e4e4e4;
+  opacity: 0.85;
+}
+
+.biblio-featured {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent 60%);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.biblio-featured__head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-bottom: 0.75rem;
+}
+
+.biblio-featured__hint {
+  color: #dcdcdc;
+}
+
+.biblio-featured__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.9rem;
+}
+
+.biblio-featured__card {
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: linear-gradient(140deg, rgba(255, 255, 255, 0.04), rgba(10, 10, 10, 0.8));
+}
+
+.biblio-featured__title {
+  font-family: "EB Garamond", "Cormorant Garamond", serif;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.biblio-featured__author {
+  color: #eaeaea;
+  margin-top: 0.15rem;
+}
+
+.biblio-featured__badge {
+  display: inline-block;
+  margin-top: 0.4rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  color: #ededed;
+}
+
+@keyframes biblioGrain {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(-8px, 6px, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}

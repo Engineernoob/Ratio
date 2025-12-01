@@ -1,0 +1,18 @@
+{
+  "id": "mastery",
+  "title": "Mastery",
+  "author": "Robert Greene",
+  "category": "Self-Improvement",
+  "tags": ["self-improvement", "mastery", "success", "psychology"],
+  "spine": "",
+  "spineWidth": "normal",
+  "cover": "",
+  "pdf": "/pdfs/Mastery by Robert Greene.pdf",
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Introduction",
+      "file": "chapter-1.json"
+    }
+  ]
+}

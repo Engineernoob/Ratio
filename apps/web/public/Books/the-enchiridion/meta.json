@@ -1,0 +1,18 @@
+{
+  "id": "the-enchiridion",
+  "title": "The Enchiridion",
+  "author": "Epictetus",
+  "category": "Philosophy",
+  "tags": ["philosophy", "stoicism", "ancient", "ethics"],
+  "spine": "",
+  "spineWidth": "normal",
+  "cover": "",
+  "pdf": "/pdfs/The Enchiridion.pdf",
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Introduction",
+      "file": "chapter-1.json"
+    }
+  ]
+}

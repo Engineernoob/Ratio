@@ -1,0 +1,152 @@
+{
+  "bookId": "AtomicHabits",
+  "title": "Atomic Habits",
+  "author": "James Clear",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "The Surprising Power of Atomic Habits",
+      "file": "chapter-1.json",
+      "pageStart": null,
+      "pageEnd": null
+    },
+    {
+      "number": 2,
+      "title": "How Your Habits Shape Your Identity",
+      "file": "chapter-2.json",
+      "pageStart": null,
+      "pageEnd": null
+    },
+    {
+      "number": 3,
+      "title": "How to Build Better Habits in 4 Simple Steps",
+      "file": "chapter-3.json",
+      "pageStart": null,
+      "pageEnd": null
+    },
+
+    {
+      "number": 4,
+      "title": "The Man Who Didn’t Look Right",
+      "file": "chapter-4.json",
+      "pageStart": null,
+      "pageEnd": null
+    },
+    {
+      "number": 5,
+      "title": "The Best Way to Start a New Habit",
+      "file": "chapter-5.json",
+      "pageStart": null,
+      "pageEnd": null
+    },
+    {
+      "number": 6,
+      "title": "Motivation Is Overrated; Environment Often Matters More",
+      "file": "chapter-6.json",
+      "pageStart": null,
+      "pageEnd": null
+    },
+    {
+      "number": 7,
+      "title": "The Secret to Self-Control",
+      "file": "chapter-7.json",
+      "pageStart": null,
+      "pageEnd": null
+    },
+
+    {
+      "number": 8,
+      "title": "How to Make a Habit Irresistible",
+      "file": "chapter-8.json",
+      "pageStart": null,
+      "pageEnd": null
+    },
+    {
+      "number": 9,
+      "title": "The Role of Family and Friends in Shaping Your Habits",
+      "file": "chapter-9.json",
+      "pageStart": null,
+      "pageEnd": null
+    },
+    {
+      "number": 10,
+      "title": "How to Find and Fix the Causes of Your Bad Habits",
+      "file": "chapter-10.json",
+      "pageStart": null,
+      "pageEnd": null
+    },
+
+    {
+      "number": 11,
+      "title": "Walk Slowly, but Never Backward",
+      "file": "chapter-11.json",
+      "pageStart": null,
+      "pageEnd": null
+    },
+    {
+      "number": 12,
+      "title": "The Law of Least Effort",
+      "file": "chapter-12.json",
+      "pageStart": null,
+      "pageEnd": null
+    },
+    {
+      "number": 13,
+      "title": "How to Stop Procrastinating by Using the Two-Minute Rule",
+      "file": "chapter-13.json",
+      "pageStart": null,
+      "pageEnd": null
+    },
+    {
+      "number": 14,
+      "title": "How to Make Good Habits Inevitable and Bad Habits Impossible",
+      "file": "chapter-14.json",
+      "pageStart": null,
+      "pageEnd": null
+    },
+
+    {
+      "number": 15,
+      "title": "The Cardinal Rule of Behavior Change",
+      "file": "chapter-15.json",
+      "pageStart": null,
+      "pageEnd": null
+    },
+    {
+      "number": 16,
+      "title": "How to Stick with Good Habits Every Day",
+      "file": "chapter-16.json",
+      "pageStart": null,
+      "pageEnd": null
+    },
+    {
+      "number": 17,
+      "title": "How an Accountability Partner Can Change Everything",
+      "file": "chapter-17.json",
+      "pageStart": null,
+      "pageEnd": null
+    },
+
+    {
+      "number": 18,
+      "title": "The Truth About Talent",
+      "file": "chapter-18.json",
+      "pageStart": null,
+      "pageEnd": null
+    },
+    {
+      "number": 19,
+      "title": "The Goldilocks Rule",
+      "file": "chapter-19.json",
+      "pageStart": null,
+      "pageEnd": null
+    },
+    {
+      "number": 20,
+      "title": "The Downside of Creating Good Habits",
+      "file": "chapter-20.json",
+      "pageStart": null,
+      "pageEnd": null
+    }
+  ]
+}

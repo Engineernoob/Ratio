@@ -1,0 +1,99 @@
+{
+  "lessons": [
+    {
+      "id": "signal-vs-noise",
+      "title": "Signal vs. Noise",
+      "steps": [
+        {
+          "label": "CONCEPT",
+          "prompt": "In information theory, 'signal' refers to meaningful information, while 'noise' is random, meaningless data that obscures the signal. The signal-to-noise ratio determines the clarity of communication. In reasoning, we must distinguish between relevant evidence (signal) and irrelevant distractions (noise)."
+        },
+        {
+          "label": "EXEMPLVM",
+          "prompt": "Consider a debate about climate change. The signal: peer-reviewed scientific data showing temperature trends, CO2 levels, and ice sheet measurements. The noise: emotional appeals, ad hominem attacks, or cherry-picked anecdotes. A skilled reasoner focuses on the signal while filtering out the noise."
+        },
+        {
+          "label": "RESPONSE",
+          "prompt": "Reflect: In your recent arguments or decisions, what percentage was signal versus noise? Identify one instance where noise clouded your judgment. How can you improve your signal-to-noise ratio in future reasoning?"
+        }
+      ],
+      "estTime": "7 min"
+    },
+    {
+      "id": "causal-inference",
+      "title": "Causal Inference",
+      "steps": [
+        {
+          "label": "CONCEPT",
+          "prompt": "Causation requires more than correlation. Three criteria: (1) temporal precedence (cause precedes effect), (2) covariation (changes in cause relate to changes in effect), and (3) elimination of alternative explanations. Correlation alone is insufficient—post hoc ergo propter hoc is a common fallacy."
+        },
+        {
+          "label": "EXEMPLVM",
+          "prompt": "Ice cream sales and drowning deaths correlate positively. Does ice cream cause drowning? No—both increase in summer. The confounding variable is temperature. To establish causation, we'd need controlled experiments or natural experiments that isolate the variable of interest."
+        },
+        {
+          "label": "RESPONSE",
+          "prompt": "Identify a correlation you've observed recently. What alternative explanations exist? What evidence would be needed to establish causation? Design a simple experiment or observational study to test your hypothesis."
+        }
+      ],
+      "estTime": "10 min"
+    },
+    {
+      "id": "bayesian-updating",
+      "title": "Bayesian Updating",
+      "steps": [
+        {
+          "label": "CONCEPT",
+          "prompt": "Bayesian reasoning involves updating prior beliefs with new evidence. Prior probability × Likelihood = Posterior probability. Strong evidence can dramatically shift beliefs, while weak evidence causes minor adjustments. The key is proportional updating based on evidence strength."
+        },
+        {
+          "label": "EXEMPLVM",
+          "prompt": "You believe a coin is fair (50% heads). After 10 flips, you get 9 heads. Your prior (0.5) should update toward the coin being biased. The strength of evidence (9/10 heads) suggests a strong likelihood the coin favors heads. Your posterior belief should shift accordingly, though not to 100% certainty."
+        },
+        {
+          "label": "RESPONSE",
+          "prompt": "Think of a belief you hold. What evidence would strengthen it? What evidence would weaken it? How much would each piece of evidence shift your confidence? Practice proportional updating rather than all-or-nothing thinking."
+        }
+      ],
+      "estTime": "8 min"
+    },
+    {
+      "id": "logical-fallacies",
+      "title": "Common Logical Fallacies",
+      "steps": [
+        {
+          "label": "CONCEPT",
+          "prompt": "Fallacies are errors in reasoning that render arguments invalid or unsound. Common types: ad hominem (attacking the person), straw man (misrepresenting opponent's position), false dilemma (presenting only two options when more exist), slippery slope (assuming one event leads to extreme consequences), and appeal to authority (using authority as proof)."
+        },
+        {
+          "label": "EXEMPLVM",
+          "prompt": "Straw man: 'You support free speech, so you must support hate speech.' This misrepresents the position. The actual position might be: 'Free speech is valuable, but certain forms of speech can be restricted when they cause direct harm.' The fallacy creates a false version to attack."
+        },
+        {
+          "label": "RESPONSE",
+          "prompt": "Identify a fallacy you've encountered (or committed) recently. Deconstruct it: What makes it fallacious? What would a valid version of the argument look like? Practice recognizing fallacies in media, conversations, and your own thinking."
+        }
+      ],
+      "estTime": "9 min"
+    },
+    {
+      "id": "epistemic-humility",
+      "title": "Epistemic Humility",
+      "steps": [
+        {
+          "label": "CONCEPT",
+          "prompt": "Epistemic humility is the recognition of the limits of one's knowledge. It involves: (1) acknowledging uncertainty, (2) being open to revision, (3) recognizing cognitive biases, and (4) valuing evidence over confidence. It is not skepticism or relativism, but calibrated confidence based on evidence quality."
+        },
+        {
+          "label": "EXEMPLVM",
+          "prompt": "A confident expert makes a prediction with 90% certainty. An epistemically humble expert, seeing the same evidence, might express 60% confidence, acknowledging model limitations, unknown variables, and historical prediction errors. The humble expert is often more accurate because they calibrate confidence to evidence quality."
+        },
+        {
+          "label": "RESPONSE",
+          "prompt": "Rate your confidence (0-100%) on three beliefs you hold. For each, ask: What evidence supports this? What evidence contradicts it? What would change your mind? Adjust your confidence ratings based on this analysis. Practice expressing uncertainty when appropriate."
+        }
+      ],
+      "estTime": "6 min"
+    }
+  ]
+}

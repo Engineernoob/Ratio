@@ -1,0 +1,18 @@
+{
+  "id": "the-48-laws-of-power",
+  "title": "The 48 Laws of Power",
+  "author": "Robert Greene",
+  "category": "Self-Improvement",
+  "tags": ["self-improvement", "power", "strategy", "psychology"],
+  "spine": "",
+  "spineWidth": "thick",
+  "cover": "",
+  "pdf": "/pdfs/THE 48 LAWS OF POWER - Robert Greene.pdf",
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Introduction",
+      "file": "chapter-1.json"
+    }
+  ]
+}

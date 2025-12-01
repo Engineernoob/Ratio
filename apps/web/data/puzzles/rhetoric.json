@@ -1,0 +1,29 @@
+[
+  {
+    "id": "rhet-1",
+    "type": "mcq",
+    "prompt": "Which mode of persuasion is being used: 'As a doctor with 20 years of experience, I recommend...'?",
+    "choices": [
+      "Ethos",
+      "Pathos",
+      "Logos",
+      "None of the above"
+    ],
+    "answer": 0,
+    "explanation": "This is ethos - establishing credibility through professional experience and expertise."
+  },
+  {
+    "id": "rhet-2",
+    "type": "mcq",
+    "prompt": "A speaker says 'Imagine the suffering of children without access to clean water.' Which mode is this?",
+    "choices": [
+      "Ethos",
+      "Pathos",
+      "Logos",
+      "All of the above"
+    ],
+    "answer": 1,
+    "explanation": "This is pathos - appealing to the audience's emotions through vivid imagery and empathy."
+  }
+]
+

@@ -1,0 +1,19 @@
+{
+  "id": "thinking-fast-and-slow",
+  "title": "Thinking, Fast and Slow",
+  "author": "Daniel Kahneman",
+  "pdf": "/pdfs/Daniel Kahneman-Thinking, Fast and Slow  .pdf",
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Introduction",
+      "file": "chapter-1.json"
+    }
+  ],
+  "bookSpine": {
+    "x": 0,
+    "y": 0,
+    "width": 55,
+    "height": 240
+  }
+}

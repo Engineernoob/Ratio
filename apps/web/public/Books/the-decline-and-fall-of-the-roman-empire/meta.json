@@ -1,0 +1,18 @@
+{
+  "id": "the-decline-and-fall-of-the-roman-empire",
+  "title": "The History of the Decline and Fall of the Roman Empire",
+  "author": "Edward Gibbon",
+  "category": "History",
+  "tags": ["history", "ancient", "rome", "classical"],
+  "spine": "",
+  "spineWidth": "thick",
+  "cover": "",
+  "pdf": "/pdfs/historyofdecline00ingibb.pdf",
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Introduction",
+      "file": "chapter-1.json"
+    }
+  ]
+}

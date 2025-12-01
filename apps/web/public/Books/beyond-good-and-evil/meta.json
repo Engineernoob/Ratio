@@ -1,0 +1,18 @@
+{
+  "id": "beyond-good-and-evil",
+  "title": "Beyond Good and Evil",
+  "author": "Friedrich Nietzsche",
+  "category": "Philosophy",
+  "tags": ["philosophy", "nietzsche", "ethics", "modern"],
+  "spine": "",
+  "spineWidth": "normal",
+  "cover": "",
+  "pdf": "/pdfs/beyond-good-and-evil.epub",
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Introduction",
+      "file": "chapter-1.json"
+    }
+  ]
+}

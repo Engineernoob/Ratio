@@ -1,0 +1,14 @@
+{
+  "dailyQuestion": "What is the relationship between knowledge and virtue? Can one truly know the good without doing it?",
+  "counterarguments": [
+    "One might argue that knowledge and virtue are distinct: a person can understand what is right yet still choose wrong. This suggests knowledge alone is insufficient for virtue.",
+    "Another perspective: virtue requires not just knowing the good, but also the will and habit to act upon it. Knowledge is necessary but not sufficient.",
+    "A counterargument: if virtue is knowledge, then all wrongdoing is ignorance. But we observe people who seem to know better yet act poorly—how do we explain this?"
+  ],
+  "clarityTests": [
+    "Can you define 'knowledge' and 'virtue' with precision?",
+    "What evidence supports your position?",
+    "What would falsify your claim?",
+    "How does your position account for akrasia (weakness of will)?"
+  ]
+}

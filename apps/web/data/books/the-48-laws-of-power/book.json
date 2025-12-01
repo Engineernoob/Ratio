@@ -1,0 +1,19 @@
+{
+  "id": "the-48-laws-of-power",
+  "title": "The 48 Laws of Power",
+  "author": "Robert Greene",
+  "pdf": "/pdfs/THE 48 LAWS OF POWER - Robert Greene.pdf",
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Introduction",
+      "file": "chapter-1.json"
+    }
+  ],
+  "bookSpine": {
+    "x": 0,
+    "y": 0,
+    "width": 70,
+    "height": 240
+  }
+}

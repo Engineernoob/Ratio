@@ -1,0 +1,242 @@
+@import "tailwindcss";
+
+:root {
+  --accent: #e8e6e1;
+  --accent-color: #e8e6e1;
+  --fog: rgba(255, 255, 255, 0.08);
+  --glow: rgba(255, 255, 255, 0.12);
+  --glow-color: rgba(255, 255, 255, 0.12);
+  --grain: 0.05;
+  --texture-bg: url("/images/textures/parchment-dither.png");
+  --texture-dither: url("/images/textures/texture_bayer.png");
+  --texture-vignette: 0.08;
+  --background: #050505;
+  --surface: rgba(255, 255, 255, 0.04);
+  --blur: 4px;
+  --border-style: solid;
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 32px;
+  --space-lg: 64px;
+  --space-xl: 96px;
+  --space-xxl: 160px;
+}
+
+html,
+body {
+  background-color: var(--background, #050505);
+  color: var(--accent, #e8e6e1);
+  font-family: var(--font-mono);
+  overflow-x: hidden;
+}
+
+.engraved-text {
+  color: #e8e6e1;
+  text-shadow: 0px 1px 0 rgba(255, 255, 255, 0.05),
+    0px -1px 0 rgba(0, 0, 0, 0.9);
+  letter-spacing: 0.08em;
+}
+
+.fog-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 240px;
+  background: linear-gradient(to bottom, rgba(164, 163, 163, 0.7), transparent);
+  pointer-events: none;
+  z-index: 5;
+}
+
+.fog-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 240px;
+  background: linear-gradient(to top, rgba(159, 158, 158, 0.7), transparent);
+  pointer-events: none;
+  z-index: 5;
+}
+
+.dither-overlay {
+  position: fixed;
+  inset: 0;
+  background-image: url("/images/textures/texture_bayer.png");
+  background-size: 256px 256px;
+  background-repeat: repeat;
+  opacity: 0.03;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.noise {
+  background-image: url("/images/textures/texture_bayer.png");
+  background-size: 256px 256px;
+  background-repeat: repeat;
+  opacity: 0.03;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.grain {
+  background-image: url("/images/textures/texture_bayer.png");
+  background-size: 256px 256px;
+  background-repeat: repeat;
+  opacity: 0.03;
+  pointer-events: none;
+}
+
+.text-gold {
+  color: #d7c49eff;
+}
+
+/* OIKOS Background Animations */
+@keyframes bg-drift {
+  0% {
+    background-position: 50% 50%;
+  }
+  50% {
+    background-position: 51% 49%;
+  }
+  100% {
+    background-position: 50% 50%;
+  }
+}
+
+@keyframes vignette-pulse {
+  0% {
+    opacity: 0.12;
+  }
+  50% {
+    opacity: 0.18;
+  }
+  100% {
+    opacity: 0.12;
+  }
+}
+
+@keyframes grain {
+  0%,
+  100% {
+    opacity: 0.09;
+  }
+  50% {
+    opacity: 0.11;
+  }
+}
+
+@keyframes ken-burns {
+  0% {
+    background-position: 50% 50%;
+    background-size: 100%;
+  }
+  50% {
+    background-position: 52% 48%;
+    background-size: 105%;
+  }
+  100% {
+    background-position: 50% 50%;
+    background-size: 100%;
+  }
+}
+
+@keyframes fade-in-slow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.oikos-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -10;
+
+  background-image: url("/images/backgrounds/acropolis-dithered.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  filter: grayscale(100%) contrast(120%);
+  animation: bg-drift 60s ease-in-out infinite;
+
+  will-change: background-position, filter;
+  transform: translateZ(0);
+}
+
+.oikos-vignette {
+  position: fixed;
+  inset: 0;
+  z-index: -5;
+  pointer-events: none;
+
+  background: radial-gradient(circle, transparent 40%, rgba(212, 210, 210, 0.6) 100%);
+  mix-blend-mode: multiply;
+  opacity: 0.15;
+
+  animation: vignette-pulse 9s ease-in-out infinite;
+}
+
+.oikos-grain {
+  position: fixed;
+  inset: 0;
+  z-index: -4;
+  pointer-events: none;
+
+  background-image: url("/images/textures/texture_bayer.png");
+  background-size: 256px 256px;
+  background-repeat: repeat;
+  mix-blend-mode: overlay;
+  opacity: 0.08;
+  animation: grain 6s ease-in-out infinite;
+}
+
+.scroll-darken {
+  transition: background-color 0.3s ease-out;
+}
+
+@layer utilities {
+  .bg-vignette {
+    background: radial-gradient(
+      ellipse at 50% 35%,
+      rgba(255, 255, 255, 0.08) 0%,
+      rgba(0, 0, 0, 0) 38%,
+      rgba(0, 0, 0, 0.7) 90%
+    );
+  }
+
+  .fade-in-slow {
+    opacity: 0;
+    animation: fade-in-slow 1.5s ease forwards;
+  }
+
+  .scroll-parallax {
+    transform: translate3d(0, var(--parallax-offset, 0px), 0);
+    transition: transform 0.35s ease-out;
+    will-change: transform;
+  }
+}
+
+/* Utility classes for OIKOS */
+.card-padding {
+  padding: 1.5rem;
+}
+
+.soft-float {
+  transition: transform 0.3s ease-out;
+}
+
+.soft-float:hover {
+  transform: translateY(-2px);
+}

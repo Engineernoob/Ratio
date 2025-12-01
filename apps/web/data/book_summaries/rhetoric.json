@@ -1,0 +1,30 @@
+{
+  "title": "Rhetoric",
+  "author": "Aristotle",
+  "year": -350,
+  "key_ideas": [
+    "Rhetoric is the art of persuasion through three modes: ethos, pathos, and logos.",
+    "Ethos establishes the speaker's credibility and character.",
+    "Pathos appeals to the audience's emotions.",
+    "Logos uses logical reasoning and evidence.",
+    "Effective rhetoric combines all three modes appropriately.",
+    "Understanding rhetoric helps both in persuasion and in recognizing manipulation."
+  ],
+  "micro_lessons": [
+    {
+      "id": "rhet-1",
+      "title": "The Three Modes",
+      "core_idea": "Ethos (credibility), Pathos (emotion), Logos (logic) are the three pillars of persuasion.",
+      "micro_test_q": "What are the three modes of persuasion?",
+      "micro_test_a": "Ethos establishes credibility, Pathos appeals to emotion, and Logos uses logical reasoning."
+    },
+    {
+      "id": "rhet-2",
+      "title": "Appropriate Use",
+      "core_idea": "Different situations require different emphasis on each mode. Match your approach to context.",
+      "micro_test_q": "When should you emphasize pathos over logos?",
+      "micro_test_a": "When the audience needs emotional connection or when values and feelings are central to the issue."
+    }
+  ]
+}
+

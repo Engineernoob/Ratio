@@ -1,0 +1,36 @@
+{
+  "chapter": 3,
+  "chapter_title": "Attack by Stratagem",
+  "summary": "Sun Tzu emphasizes that supreme excellence is winning without fighting. Destroying the enemy’s will, plans, and alliances is superior to destroying armies or cities. Strategy, intelligence, and timing outperform brute force. Know yourself and the enemy to avoid defeat.",
+  "content": "<p>Sun Tzu said: In war, the best policy is to take a state intact. To ruin it is inferior. It is better to subdue the enemy without fighting than to win by destroying them.</p><p>The highest form of generalship is to thwart the enemy’s plans. The next best is to prevent alliances. After that, attack their armies; the worst is to besiege walled cities.</p><p>Sieges drain resources and morale and should only be attempted when no other option remains.</p><p>A skillful leader defeats the enemy without losing a single man. He captures everything intact, using strategy rather than force.</p><p>If you know the enemy and know yourself, you will not be defeated. If you know yourself but not the enemy, you will suffer losses. If you know neither, you will be destroyed.</p><p>Thus, the wise commander wins first by preparation and strategy, and only afterward seeks battle.</p>",
+  "micro_lessons": [
+    {
+      "question": "According to Sun Tzu, what is the highest form of warfare?",
+      "answer": "To subdue the enemy without fighting."
+    },
+    {
+      "question": "What is the best strategy after thwarting the enemy’s plans?",
+      "answer": "To prevent the enemy from forming alliances."
+    },
+    {
+      "question": "Why is besieging cities considered the worst strategy?",
+      "answer": "Because it is wasteful, slow, and drains resources."
+    },
+    {
+      "question": "What does Sun Tzu say about knowing yourself and the enemy?",
+      "answer": "If you know both, you will not be defeated."
+    },
+    {
+      "question": "What is inferior to capturing a state intact?",
+      "answer": "Destroying or ruining it."
+    },
+    {
+      "question": "How does a skillful leader win without loss?",
+      "answer": "By using strategy instead of brute force."
+    },
+    {
+      "question": "What causes defeat, according to Sun Tzu?",
+      "answer": "Failing to understand both yourself and the enemy."
+    }
+  ]
+}

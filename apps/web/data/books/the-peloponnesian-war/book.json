@@ -1,0 +1,19 @@
+{
+  "id": "the-peloponnesian-war",
+  "title": "The Peloponnesian War",
+  "author": "Thucydides",
+  "pdf": "/pdfs/The Peloponnesian War.pdf",
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Introduction",
+      "file": "chapter-1.json"
+    }
+  ],
+  "bookSpine": {
+    "x": 0,
+    "y": 0,
+    "width": 70,
+    "height": 240
+  }
+}

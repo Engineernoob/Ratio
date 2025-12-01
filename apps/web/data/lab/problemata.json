@@ -1,0 +1,30 @@
+{
+  "today": {
+    "id": "logic-001",
+    "prompt": "All philosophers are thinkers. Some thinkers are logicians. Therefore, all philosophers are logicians. Is this argument valid?",
+    "solution": "No, this is invalid. The conclusion does not follow from the premises. The premises establish that philosophers are a subset of thinkers, and that some thinkers are logicians, but this does not guarantee that all philosophers are logicians. This is a fallacy of the undistributed middle term.",
+    "explanation": [
+      "Premise 1: All philosophers are thinkers (universal affirmative).",
+      "Premise 2: Some thinkers are logicians (particular affirmative).",
+      "The middle term 'thinkers' is not distributed in the second premise.",
+      "For a valid syllogism, the middle term must be distributed in at least one premise.",
+      "Therefore, the conclusion does not follow logically."
+    ],
+    "category": "Syllogistic Logic",
+    "difficulty": "Intermediate"
+  },
+  "variants": [
+    {
+      "id": "logic-002",
+      "prompt": "All students are learners. Some learners are teachers. Therefore, all students are teachers.",
+      "category": "Syllogistic Logic",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "logic-003",
+      "prompt": "No mammals are fish. All whales are mammals. Therefore, no whales are fish.",
+      "category": "Syllogistic Logic",
+      "difficulty": "Advanced"
+    }
+  ]
+}

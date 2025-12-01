@@ -1,0 +1,48 @@
+{
+  "assignments": {
+    "2025-11-24": [
+      {
+        "id": "tiktok-6",
+        "type": "external",
+        "source": "tiktok",
+        "difficulty": 1,
+        "priority": 0.5,
+        "srs_due": null
+      },
+      {
+        "id": "tiktok-3",
+        "type": "external",
+        "source": "tiktok",
+        "difficulty": 1,
+        "priority": 0.5,
+        "srs_due": null
+      },
+      {
+        "id": "meditations:summary",
+        "type": "summary",
+        "source": "meditations",
+        "difficulty": 1,
+        "priority": 1.0,
+        "srs_due": null
+      },
+      {
+        "id": "meditations:chapter:2:summary",
+        "type": "chapter-summary",
+        "source": "meditations",
+        "chapter": 2,
+        "difficulty": 1,
+        "priority": 0.9,
+        "srs_due": null
+      },
+      {
+        "id": "meditations:chapter:1:summary",
+        "type": "chapter-summary",
+        "source": "meditations",
+        "chapter": 1,
+        "difficulty": 1,
+        "priority": 0.9,
+        "srs_due": null
+      }
+    ]
+  }
+}

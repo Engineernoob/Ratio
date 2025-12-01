@@ -1,0 +1,19 @@
+{
+  "id": "godel-escher-bach",
+  "title": "Gödel, Escher, Bach",
+  "author": "Douglas Hofstadter",
+  "pdf": "/pdfs/Gödel, Escher, Bach — Douglas Hofstadter.pdf",
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Introduction",
+      "file": "chapter-1.json"
+    }
+  ],
+  "bookSpine": {
+    "x": 0,
+    "y": 0,
+    "width": 70,
+    "height": 240
+  }
+}

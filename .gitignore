@@ -1,0 +1,92 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Next.js
+.next/
+out/
+build/
+dist/
+.vercel/
+
+# Turborepo
+turbo/
+turbo.json.lock
+
+# Logs
+logs/
+*.log
+*.log.*
+log/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TypeScript
+*.tsbuildinfo
+
+# Supabase
+supabase/.temp/
+supabase/.branches/
+
+# Generated Assets
+public/generated/
+public/images/cache/
+public/books/spines/
+
+# Temporary
+tmp/
+temp/
+*.tmp
+apps/web/README.md
+apps/web/STORAGE_POLICIES_FIX.md
+apps/web/STORAGE_SETUP_STEPS.md
+apps/web/STORAGE_SETUP.md
+apps/web/VERIFY_SUPABASE.md
+apps/web/components/CLEANUP_SUMMARY.md
+apps/web/data/KNOWLEDGE_STREAMS.md
+apps/web/data/FEED_SYSTEM.md
+apps/web/data/README.md
+apps/web/public/pdfs/The_Elephant_in_the_Brain_Hidden_Motives_in_Everyday_Life_Oxford_University.epub
+apps/web/public/pdfs/The_33_Strategies_of_War.pdf
+apps/web/public/pdfs/The Psychology of Money .pdf
+apps/web/public/pdfs/The Peloponnesian War.pdf
+apps/web/public/pdfs/The Enchiridion.pdf
+apps/web/public/pdfs/The Denial of Death.epub
+apps/web/public/pdfs/The Art of Strategy.pdf
+apps/web/public/pdfs/THE 48 LAWS OF POWER - Robert Greene.pdf
+apps/web/public/pdfs/sun-tzu_art-of-war.epub
+apps/web/public/pdfs/Steven Pinker The Blank Slate The Modern Denial of Human Nature.epub
+apps/web/public/pdfs/Moonwalking_with_Einstein_The_Art_and_Science_of_Remembering_Everything_by_Joshua_Foer_z-lib_org.epub
+apps/web/public/pdfs/Misbehaving-The-Making-of-Behavioral-Economics-Richard-H-Thaler.pdf
+apps/web/public/pdfs/Mihaly-Csikszentmihalyi-Flow.pdf
+apps/web/public/pdfs/Mastery by Robert Greene.pdf
+apps/web/public/pdfs/Intro to Logic.pdf
+apps/web/public/pdfs/How to Read a Book_ The classic guide to intelligent reading .pdf
+apps/web/public/pdfs/historyofdecline00ingibb.pdf
+apps/web/public/pdfs/Gödel, Escher, Bach — Douglas Hofstadter.pdf
+apps/web/public/pdfs/Durant Will - The Lessons of History.pdf
+apps/web/public/pdfs/Daniel Kahneman-Thinking, Fast and Slow  .pdf
+apps/web/public/pdfs/beyond-good-and-evil.epub
+apps/web/public/pdfs/Atomic habits.pdf
+apps/web/public/images/textures/texture_bayer.png
+apps/web/public/images/textures/parchment-dither.png
+apps/web/public/pdfs/ThinkinginSystems.pdf
+apps/web/public/pdfs/yuval_noah_harari-sapiens_a_brief_history.pdf

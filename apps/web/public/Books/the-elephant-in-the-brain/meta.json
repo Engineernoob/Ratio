@@ -1,0 +1,23 @@
+{
+  "id": "the-elephant-in-the-brain",
+  "title": "The Elephant in the Brain",
+  "author": "Kevin Simler & Robin Hanson",
+  "category": "Psychology",
+  "tags": [
+    "psychology",
+    "cognitive-science",
+    "behavioral-economics",
+    "self-deception"
+  ],
+  "spine": "",
+  "spineWidth": "normal",
+  "cover": "",
+  "pdf": "/pdfs/The_Elephant_in_the_Brain_Hidden_Motives_in_Everyday_Life_Oxford_University.epub",
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Introduction",
+      "file": "chapter-1.json"
+    }
+  ]
+}

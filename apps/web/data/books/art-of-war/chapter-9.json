@@ -1,0 +1,24 @@
+{
+  "chapter": 9,
+  "chapter_title": "The Army on the March",
+  "summary": "Sun Tzu teaches how to observe signs in the environment and the enemy’s behavior. Terrain, movement, morale, and subtle indicators reveal the enemy’s intentions.",
+  "content": "<p>Sun Tzu said: When the enemy occupies high ground, do not attack uphill. When they appear eager to fight, remain cautious.</p><p>When soldiers lean on their weapons, they are hungry. When they drink from streams, they are thirsty. When they gather in groups, morale is low.</p><p>Sudden movements may signal traps. Loud activity may conceal fear.</p><p>The wise commander reads these signs to determine when to advance, withdraw, or avoid engagement.</p>",
+  "micro_lessons": [
+    {
+      "question": "What should you avoid when facing an enemy on high ground?",
+      "answer": "Attacking uphill."
+    },
+    {
+      "question": "What do physical signs like leaning on weapons indicate?",
+      "answer": "Fatigue or hunger in the enemy."
+    },
+    {
+      "question": "What may loud enemy activity suggest?",
+      "answer": "Hidden fear or attempts at deception."
+    },
+    {
+      "question": "How does a wise commander make decisions?",
+      "answer": "By reading environmental and behavioral signs."
+    }
+  ]
+}

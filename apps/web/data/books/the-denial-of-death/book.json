@@ -1,0 +1,19 @@
+{
+  "id": "the-denial-of-death",
+  "title": "The Denial of Death",
+  "author": "Ernest Becker",
+  "pdf": "/pdfs/The Denial of Death.epub",
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Introduction",
+      "file": "chapter-1.json"
+    }
+  ],
+  "bookSpine": {
+    "x": 0,
+    "y": 0,
+    "width": 55,
+    "height": 240
+  }
+}

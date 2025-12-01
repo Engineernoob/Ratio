@@ -1,0 +1,36 @@
+{
+  "chapter": 2,
+  "chapter_title": "Waging War",
+  "summary": "Sun Tzu warns against the dangers of prolonged conflict. War consumes resources—time, money, morale, and lives. A wise commander seeks swift, decisive action that forces the enemy to bear the burden of cost. Efficiency, preparedness, and adaptability determine success.",
+  "content": "<p>Sun Tzu said: In the operations of war, let your great object be victory, not lengthy campaigns. Prolonged warfare exhausts the State, drains resources, burdens the people, and weakens the army.</p><p>When troops are kept too long in the field, their weapons grow dull and their ardor fades. Supplies are consumed, morale declines, and momentum is lost.</p><p>No nation has ever benefited from prolonged warfare.</p><p>A skillful general strikes quickly, living off the enemy whenever possible, conserving his own resources and using the opponent’s supply lines against him.</p><p>Bring war to the enemy’s territory, not your own. Make them pay the high cost of military action.</p><p>A wise ruler ensures his people are aligned with the war effort. A wise general prepares calculations before battle and prevents unnecessary strain on his forces.</p><p>Thus, the key to victory is not prolonged struggle but rapid, economical, decisive engagement.</p>",
+  "micro_lessons": [
+    {
+      "question": "What does Sun Tzu say should be the objective in war?",
+      "answer": "Victory—never prolonged campaigns."
+    },
+    {
+      "question": "Why is prolonged warfare harmful?",
+      "answer": "It drains resources, weakens morale, and exhausts the State."
+    },
+    {
+      "question": "How does a skillful general conserve resources?",
+      "answer": "By striking quickly and leveraging the enemy’s supplies."
+    },
+    {
+      "question": "Who bears the cost of war in Sun Tzu’s ideal strategy?",
+      "answer": "The enemy, not your own people."
+    },
+    {
+      "question": "What happens when troops stay too long in the field?",
+      "answer": "Their weapons dull, morale drops, and momentum is lost."
+    },
+    {
+      "question": "What does Sun Tzu say about nations engaging in long wars?",
+      "answer": "No nation has ever benefited from prolonged warfare."
+    },
+    {
+      "question": "What determines victory besides strategy?",
+      "answer": "Economic efficiency and swift, decisive action."
+    }
+  ]
+}

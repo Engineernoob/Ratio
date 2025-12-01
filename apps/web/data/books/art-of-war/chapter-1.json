@@ -1,0 +1,36 @@
+{
+  "chapter": 1,
+  "chapter_title": "Laying Plans",
+  "summary": "Sun Tzu introduces the foundational principles of warfare: calculation, deception, leadership, and strategic positioning. Victory is determined before battle through analysis of five constant factors and seven strategic considerations.",
+  "content": "<p>Sun Tzu said: The art of war is of vital importance to the State. It is a matter of life and death, a road to safety or ruin.</p><p>The art of war is governed by five constant factors: the Moral Law, Heaven, Earth, the Commander, and Method and Discipline.</p><p>The Moral Law causes people to follow their leaders without fear. Heaven signifies night and day, cold and heat, times and seasons. Earth comprises distances, terrain, and chances of life and death.</p><p>The Commander stands for virtues of wisdom, sincerity, benevolence, courage, and strictness. Method and Discipline involve organization, ranks, logistics, and control of expenditures.</p><p>A general who understands these factors wins; one who does not is defeated.</p><p>Strategy requires assessment: Which general possesses wisdom? Which commander has moral authority? Who holds advantages of climate and terrain? Whose discipline is stronger? Whose troops are better trained? Whose rewards and punishments are clearer?</p><p>He wins whose calculations are more numerous before battle. He loses whose calculations are fewer. Thus, victory is foreseen before fighting begins.</p>",
+  "micro_lessons": [
+    {
+      "question": "According to Sun Tzu, what makes the art of war vital?",
+      "answer": "It is a matter of life and death, determining survival or ruin."
+    },
+    {
+      "question": "What are the Five Constant Factors Sun Tzu describes?",
+      "answer": "The Moral Law, Heaven, Earth, the Commander, and Method and Discipline."
+    },
+    {
+      "question": "What does Sun Tzu say about the Moral Law?",
+      "answer": "It causes people to follow their leader with complete loyalty."
+    },
+    {
+      "question": "Why does Sun Tzu emphasize calculation before battle?",
+      "answer": "Because victory is determined by who makes more accurate calculations beforehand."
+    },
+    {
+      "question": "What is the role of the Commander in Sun Tzu's framework?",
+      "answer": "To embody wisdom, sincerity, benevolence, courage, and strictness."
+    },
+    {
+      "question": "What is the outcome for a general who understands the five factors?",
+      "answer": "He wins."
+    },
+    {
+      "question": "What determines victory according to Sun Tzu?",
+      "answer": "Superior pre-battle calculations and strategic analysis."
+    }
+  ]
+}

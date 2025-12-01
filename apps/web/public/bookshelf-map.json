@@ -1,0 +1,68 @@
+{
+  "books": [
+    {
+      "id": "AtomicHabits",
+      "title": "Atomic Habits",
+      "x": 360,
+      "y": 165,
+      "width": 40,
+      "height": 108
+    },
+    {
+      "id": "meditations",
+      "title": "Meditations",
+      "x": 405,
+      "y": 165,
+      "width": 38,
+      "height": 108
+    },
+    {
+      "id": "book_top_left_1",
+      "title": "Volume I",
+      "x": 120,
+      "y": 55,
+      "width": 32,
+      "height": 100
+    },
+    {
+      "id": "book_top_center_1",
+      "title": "Volume II",
+      "x": 390,
+      "y": 55,
+      "width": 28,
+      "height": 100
+    },
+    {
+      "id": "book_top_right_1",
+      "title": "Volume III",
+      "x": 650,
+      "y": 55,
+      "width": 35,
+      "height": 100
+    },
+    {
+      "id": "book_row3_left_1",
+      "title": "Archive I",
+      "x": 135,
+      "y": 285,
+      "width": 33,
+      "height": 112
+    },
+    {
+      "id": "book_row3_center_1",
+      "title": "Archive II",
+      "x": 390,
+      "y": 285,
+      "width": 30,
+      "height": 112
+    },
+    {
+      "id": "book_row3_right_1",
+      "title": "Archive III",
+      "x": 650,
+      "y": 285,
+      "width": 34,
+      "height": 112
+    }
+  ]
+}

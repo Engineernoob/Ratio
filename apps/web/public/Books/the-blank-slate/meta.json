@@ -1,0 +1,18 @@
+{
+  "id": "the-blank-slate",
+  "title": "The Blank Slate",
+  "author": "Steven Pinker",
+  "category": "Psychology",
+  "tags": ["psychology", "cognitive-science", "nature-vs-nurture", "modern"],
+  "spine": "",
+  "spineWidth": "normal",
+  "cover": "",
+  "pdf": "/pdfs/Steven Pinker The Blank Slate The Modern Denial of Human Nature.epub",
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Introduction",
+      "file": "chapter-1.json"
+    }
+  ]
+}

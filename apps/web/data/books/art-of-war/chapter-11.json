@@ -1,0 +1,32 @@
+{
+  "chapter": 11,
+  "chapter_title": "The Nine Situations",
+  "summary": "Sun Tzu describes nine stages of ground—from dispersive to desperate. Each requires different leadership and tactics. Understanding the psychology and behavior of troops in each situation allows the commander to control momentum and morale.",
+  "content": "<p>Sun Tzu said: The art of war recognizes nine varieties of ground: dispersive, facile, contentious, open, intersecting, serious, difficult, hemmed-in, and desperate.</p><p>When on dispersive ground, do not fight. When on facile ground, do not remain. When the ground is contentious, do not attack. On open ground, maintain communication. On intersecting ground, ally with neighbors.</p><p>On serious ground, gather resources. On difficult ground, keep moving. On hemmed-in ground, plan carefully. On desperate ground, fight.</p><p>The commander must understand how troops behave in each situation. Desperate ground makes soldiers courageous. They will fight fiercely when survival depends on victory.</p><p>Thus, by placing troops in situations where they must win or perish, a general can harness their full strength.</p>",
+  "micro_lessons": [
+    {
+      "question": "How many types of ground does Sun Tzu identify?",
+      "answer": "Nine."
+    },
+    {
+      "question": "What should be done on dispersive ground?",
+      "answer": "Avoid fighting."
+    },
+    {
+      "question": "What makes soldiers fight with maximum courage?",
+      "answer": "Being placed on desperate ground."
+    },
+    {
+      "question": "What is essential on open ground?",
+      "answer": "Maintaining communication."
+    },
+    {
+      "question": "How should intersecting ground be handled?",
+      "answer": "Form alliances."
+    },
+    {
+      "question": "What should commanders do on difficult ground?",
+      "answer": "Keep moving."
+    }
+  ]
+}

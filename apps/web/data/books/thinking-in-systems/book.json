@@ -1,0 +1,19 @@
+{
+  "id": "thinking-in-systems",
+  "title": "Thinking in Systems",
+  "author": "Donella H. Meadows",
+  "pdf": "/pdfs/ThinkinginSystems.pdf",
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Introduction",
+      "file": "chapter-1.json"
+    }
+  ],
+  "bookSpine": {
+    "x": 0,
+    "y": 0,
+    "width": 55,
+    "height": 240
+  }
+}

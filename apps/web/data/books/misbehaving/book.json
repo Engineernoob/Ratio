@@ -1,0 +1,19 @@
+{
+  "id": "misbehaving",
+  "title": "Misbehaving",
+  "author": "Richard H. Thaler",
+  "pdf": "/pdfs/Misbehaving-The-Making-of-Behavioral-Economics-Richard-H-Thaler.pdf",
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Introduction",
+      "file": "chapter-1.json"
+    }
+  ],
+  "bookSpine": {
+    "x": 0,
+    "y": 0,
+    "width": 55,
+    "height": 240
+  }
+}

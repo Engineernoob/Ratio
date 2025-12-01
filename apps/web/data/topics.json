@@ -1,0 +1,45 @@
+{
+  "topics": [
+    {
+      "id": "classical-logic",
+      "name": "Classical Logic",
+      "description": "Syllogisms, categorical logic, and deductive reasoning"
+    },
+    {
+      "id": "rhetoric",
+      "name": "Rhetoric",
+      "description": "Ethos, pathos, logos, and persuasive techniques"
+    },
+    {
+      "id": "memory-techniques",
+      "name": "Memory Techniques",
+      "description": "Method of loci, mnemonics, and retention strategies"
+    },
+    {
+      "id": "dialectic",
+      "name": "Dialectic",
+      "description": "Socratic method, questioning, and logical discourse"
+    },
+    {
+      "id": "ethics",
+      "name": "Ethics",
+      "description": "Virtue ethics, moral reasoning, and ethical frameworks"
+    },
+    {
+      "id": "metaphysics",
+      "name": "Metaphysics",
+      "description": "Being, existence, and fundamental reality"
+    },
+    {
+      "id": "natural-philosophy",
+      "name": "Natural Philosophy",
+      "description": "Ancient and classical approaches to natural science"
+    },
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "description": "Classical geometry, number theory, and mathematical reasoning"
+    }
+  ]
+}
+

@@ -1,0 +1,18 @@
+{
+  "id": "sapiens",
+  "title": "Sapiens",
+  "author": "Yuval Noah Harari",
+  "category": "History",
+  "tags": ["history", "anthropology", "evolution", "modern"],
+  "spine": "",
+  "spineWidth": "thick",
+  "cover": "",
+  "pdf": "/pdfs/yuval_noah_harari-sapiens_a_brief_history.pdf",
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Introduction",
+      "file": "chapter-1.json"
+    }
+  ]
+}

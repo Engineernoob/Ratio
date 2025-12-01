@@ -1,0 +1,19 @@
+{
+  "id": "sapiens",
+  "title": "Sapiens",
+  "author": "Yuval Noah Harari",
+  "pdf": "/pdfs/yuval_noah_harari-sapiens_a_brief_history.pdf",
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Introduction",
+      "file": "chapter-1.json"
+    }
+  ],
+  "bookSpine": {
+    "x": 0,
+    "y": 0,
+    "width": 70,
+    "height": 240
+  }
+}

@@ -1,0 +1,173 @@
+/* LABORATORIVM Monochrome Styles */
+
+.lab-container {
+  background: #000;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.lab-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  transition: all 0.3s ease;
+}
+
+.lab-card:hover {
+  background: rgba(255, 255, 255, 0.06);
+  transform: scale(1.01);
+}
+
+.lab-button {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.lab-button::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: #fff;
+  transition: width 0.2s ease;
+}
+
+.lab-button:hover::before {
+  width: 100%;
+}
+
+.lab-button:hover {
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.lab-workspace {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+}
+
+.lab-workspace::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("/images/textures/texture_bayer.png");
+  background-size: 256px 256px;
+  background-repeat: repeat;
+  opacity: 0.02;
+  pointer-events: none;
+}
+
+.lab-textarea {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-family: var(--font-mono);
+  padding: 1rem;
+  width: 100%;
+  resize: vertical;
+  min-height: 120px;
+}
+
+.lab-textarea:focus {
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.lab-progress-bar {
+  height: 2px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.lab-progress-fill {
+  height: 100%;
+  background: #fff;
+  transition: width 0.3s ease;
+}
+
+.lab-step-indicator {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  color: #b7b7b7;
+  margin-bottom: 1rem;
+}
+
+.lab-title {
+  font-family: var(--font-serif);
+  color: #fff;
+  letter-spacing: 0.05em;
+}
+
+.lab-subtitle {
+  font-family: var(--font-mono);
+  color: #b7b7b7;
+  font-size: 0.875rem;
+}
+
+/* Animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-break {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+
+.lab-fade-in {
+  animation: fade-in 0.4s ease-out;
+}
+
+.lab-slide-up {
+  animation: slide-up 0.5s ease-out;
+}
+
+.lab-fade-break {
+  animation: fade-break 0.6s ease-in-out;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .lab-workspace {
+    width: 100% !important;
+    padding: 1.5rem !important;
+  }
+
+  .lab-card {
+    margin-bottom: 1rem;
+  }
+}

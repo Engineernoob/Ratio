@@ -1,0 +1,24 @@
+{
+  "chapter": 10,
+  "chapter_title": "Terrain",
+  "summary": "Sun Tzu defines six types of terrain and explains how each affects mobility, engagement, and risk. Understanding terrain determines whether armies should fight, retreat, advance, or avoid conflict.",
+  "content": "<p>Sun Tzu said: There are six kinds of terrain—accessible, entangling, temporizing, narrow passes, precipitous heights, and positions at a great distance.</p><p>Each type requires different strategies. To ignore these is to invite defeat.</p><p>When the ground is accessible, occupy the sunny side and keep the high ground. When roads are narrow, block them. When heights are steep, hold them.</p><p>The commander who understands terrain wins. The one who does not is defeated.</p>",
+  "micro_lessons": [
+    {
+      "question": "How many types of terrain does Sun Tzu describe?",
+      "answer": "Six."
+    },
+    {
+      "question": "What determines whether a commander wins or loses?",
+      "answer": "Understanding terrain and using it correctly."
+    },
+    {
+      "question": "What should be done with narrow passes?",
+      "answer": "Guard or block them."
+    },
+    {
+      "question": "How should heights be handled?",
+      "answer": "Occupy and hold them."
+    }
+  ]
+}

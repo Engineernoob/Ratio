@@ -1,0 +1,19 @@
+{
+  "id": "moonwalking-with-einstein",
+  "title": "Moonwalking with Einstein",
+  "author": "Joshua Foer",
+  "pdf": "/pdfs/Moonwalking_with_Einstein_The_Art_and_Science_of_Remembering_Everything_by_Joshua_Foer_z-lib_org.epub",
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Introduction",
+      "file": "chapter-1.json"
+    }
+  ],
+  "bookSpine": {
+    "x": 0,
+    "y": 0,
+    "width": 55,
+    "height": 240
+  }
+}

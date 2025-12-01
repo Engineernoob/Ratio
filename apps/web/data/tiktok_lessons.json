@@ -1,0 +1,41 @@
+{
+  "lessons": [
+    {
+      "id": "tiktok-1",
+      "topic": "logic",
+      "insight": "The middle term in a syllogism appears in both premises but never in the conclusion.",
+      "example": "All humans are mortal. Socrates is human. Therefore Socrates is mortal. 'Human' is the middle term."
+    },
+    {
+      "id": "tiktok-2",
+      "topic": "rhetoric",
+      "insight": "Ethos establishes credibility, Pathos appeals to emotion, Logos uses logic. Master all three.",
+      "example": "A doctor (ethos) describing patient suffering (pathos) with statistics (logos)."
+    },
+    {
+      "id": "tiktok-3",
+      "topic": "memory",
+      "insight": "The method of loci works because spatial memory is stronger than abstract memory.",
+      "example": "Remember a shopping list by placing items in rooms of your house."
+    },
+    {
+      "id": "tiktok-4",
+      "topic": "logic",
+      "insight": "Ad hominem attacks the person, not the argument. Always address the claim, not the claimant.",
+      "example": "Rejecting an idea because 'you're not qualified' is ad hominem."
+    },
+    {
+      "id": "tiktok-5",
+      "topic": "ethics",
+      "insight": "Virtue ethics focuses on character, not rules. What would a virtuous person do?",
+      "example": "Instead of 'Is this allowed?', ask 'Is this the right thing to do?'"
+    },
+    {
+      "id": "tiktok-6",
+      "topic": "dialectic",
+      "insight": "Socratic questioning exposes assumptions. Ask 'Why?' five times to reach truth.",
+      "example": "Why do you believe that? What evidence supports it? What would change your mind?"
+    }
+  ]
+}
+

@@ -1,0 +1,78 @@
+{
+  "id": "art-of-war",
+  "title": "The Art of War",
+  "author": "Sun Tzu",
+  "category": "Philosophy",
+  "tags": ["philosophy", "strategy", "ancient", "military"],
+  "spine": "",
+  "spineWidth": "normal",
+  "cover": "",
+  "pdf": "/pdfs/sun-tzu_art-of-war.epub",
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Laying Plans",
+      "file": "chapter-1.json"
+    },
+    {
+      "id": "chapter-2",
+      "title": "Waging War",
+      "file": "chapter-2.json"
+    },
+    {
+      "id": "chapter-3",
+      "title": "Attack by Stratagem",
+      "file": "chapter-3.json"
+    },
+    {
+      "id": "chapter-4",
+      "title": "Tactical Dispositions",
+      "file": "chapter-4.json"
+    },
+    {
+      "id": "chapter-5",
+      "title": "Energy",
+      "file": "chapter-5.json"
+    },
+    {
+      "id": "chapter-6",
+      "title": "Weak Points and Strong",
+      "file": "chapter-6.json"
+    },
+    {
+      "id": "chapter-7",
+      "title": "Maneuvering",
+      "file": "chapter-7.json"
+    },
+    {
+      "id": "chapter-8",
+      "title": "Variation in Tactics",
+      "file": "chapter-8.json"
+    },
+    {
+      "id": "chapter-9",
+      "title": "The Army on the March",
+      "file": "chapter-9.json"
+    },
+    {
+      "id": "chapter-10",
+      "title": "Terrain",
+      "file": "chapter-10.json"
+    },
+    {
+      "id": "chapter-11",
+      "title": "The Nine Situations",
+      "file": "chapter-11.json"
+    },
+    {
+      "id": "chapter-12",
+      "title": "The Attack by Fire",
+      "file": "chapter-12.json"
+    },
+    {
+      "id": "chapter-13",
+      "title": "The Use of Spies",
+      "file": "chapter-13.json"
+    }
+  ]
+}

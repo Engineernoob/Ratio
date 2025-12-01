@@ -1,0 +1,24 @@
+{
+  "chapter": 7,
+  "chapter_title": "Maneuvering",
+  "summary": "Sun Tzu describes the complexity of moving armies. Poor maneuver leads to exhaustion and vulnerability. Communication, discipline, unity, and strategic positioning determine whether an army maintains strength or collapses.",
+  "content": "<p>Sun Tzu said: After crossing a river, you must distance yourself from it. Do not meet the enemy near a river they must cross.</p><p>Move only when it is advantageous. Do not act without purpose.</p><p>When the army is confused, the general has lost control. When the troops are rebellious, discipline is weak.</p><p>A skilled commander ensures clarity of communication, unity of purpose, and careful positioning before engaging the enemy.</p>",
+  "micro_lessons": [
+    {
+      "question": "What should you avoid when maneuvering?",
+      "answer": "Fighting near river crossings or in disadvantageous terrain."
+    },
+    {
+      "question": "When should you move your army?",
+      "answer": "Only when it is strategically advantageous."
+    },
+    {
+      "question": "What are signs of a weak general?",
+      "answer": "Confused troops and poor discipline."
+    },
+    {
+      "question": "What is essential for effective maneuvering?",
+      "answer": "Clear communication and unity of purpose."
+    }
+  ]
+}
